@@ -181,6 +181,11 @@ input:focus {
     flex: 1;
     /* border: 2px solid red; */
 }
+.footer{
+    /* display: none !important; */
+    visibility: hidden;
+    
+}
 @media screen and (max-width: 1050px) {
     .flex-child4 {
        /* do what you want here */
@@ -189,13 +194,7 @@ input:focus {
     .input1{
         width: 100%;
     }
-}
-.footer{
-    /* display: none !important; */
-    visibility: hidden;
-    
-}
-@media screen and (max-width: 1050px) {
+
     .footer{
         visibility: visible;
     }
