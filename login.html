@@ -38,7 +38,7 @@
                 </div>
             </div>
             <section class="fom">
-        <form action="index.html" method="POST">
+        <form action="" method="POST">
             <!-- <hr class="hr"> -->
             <h1 class="lbl center title">Welcome Back,</h1>                    
                     <div class="lbl"> <label for = "username" class = "label">User Name</label> </div>
@@ -51,12 +51,12 @@
                     
                     <!-- buttom start here -->
                     <div class="lbl">
-                        <button type="submit" name="signup" id="ca" class="bttn inputbut" > <b> Login </b></button>  <br><br>
+                        <button type="submit" name="signup" id="ca" class="bttn inputbut" onclick=go()> <b> Login </b></button>  <br><br>
                         <div class="lbl2"> <p> <small> By signing up, you agree to our Terms , Data Policy and Cookies Policy  </small></p> </div>
                     </div>
                     <hr class="hr">
                     <div class="center">
-                        <label class="lbl">Don't have a account.<a href="index.html"style="text-decoration:none;"" >Sign up</a></label><br>
+                        <label class="lbl">Don't have a account.<a href="register.html"style="text-decoration:none;"" >Sign up</a></label><br>
                     </div>
                 </form>
             </section>
@@ -68,3 +68,8 @@
     </div>
 </body>
 </html>
+<script>
+    go = () =>{
+        window.location.href = "home.html";
+    }
+</script>
