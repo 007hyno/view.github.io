@@ -38,7 +38,7 @@
                 </div>
             </div>
             <section class="fom">
-        <form action="login.html" method="POST">
+        <form action="" method="POST">
             <!-- <hr class="hr"> -->
             <h1 class="lbl center title">Let's get started</h1>
                     <div class="lbl"> <label for = "email" class = "label">E-Mail Address</label> </div>
@@ -57,7 +57,7 @@
                     
                     <!-- buttom start here -->
                     <div class="lbl">
-                        <button type="submit" name="signup" id="ca" class="bttn inputbut" > <b> Create Account </b></button>  <br><br>
+                        <button type="submit" name="signup" id="ca" class="bttn inputbut" onclick=g0() > <b> Create Account </b></button>  <br><br>
                         <div class="lbl2"> <p> <small> By signing up, you agree to our Terms , Data Policy and Cookies Policy  </small></p> </div>
                     </div>
                     <hr class="hr">
@@ -74,3 +74,8 @@
     </div>
 </body>
 </html>
+<script>
+    g0 = ()=>{    
+        window.location.href = "home.html";
+    }
+</script>
