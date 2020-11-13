@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css?family=Rubik:400,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+body {
+    font-family: 'Nunito', sans-serif;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+.a{
+    text-decoration: none;
+}
+.a:hover{
+    border-bottom: 2.5px solid rgb(144, 0, 255);
+}
+.navbar{
+    /* border: 2px solid red; */
+    padding: 2px;
+    line-height: 50px;
+    box-shadow:0px 2px 6px 1px #d3d1d1;
+}
+.flex-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border: 2px solid red; */
+}
+
+.flex-child1{
+    flex: 0.2;
+    /* border: 2px solid red; */
+    /* margin-right: 1px; */
+    padding: 0.5%;
+}
+.flex-child2{
+    flex: 0.1;
+    /* width: 15%; */
+    /* border: 2px solid red; */
+}
+.flex-child3{
+    /* justify-content: space-around ; */
+    flex: 0.3;
+    /* border: 2px solid red; */
+}
+.flex-child4{
+    /* justify-content: center ; */
+    flex: 0.6;
+    /* border: 2px solid red; */
+    /* margin-right: 1px; */
+}
+.lbl{
+        /* font-family: 'Rubik', sans-serif; */
+    /* padding: 7px; */
+    /* border: 2px solid blue; */
+    color:rgb(108, 108, 108);
+    /* text-align: center; */
+    margin-right: auto;
+}
+.logo{
+    /* border: 2px solid blue; */
+    border-radius: 50px;
+    color: white;
+    background-color: #08AEEA;
+    background-image: linear-gradient(320deg, #6c1af8 0%, #e019ee 100%);
+    width: 35px;
+    height: 35px;
+    margin-left: auto;
+}
+.btn{
+    /* border: 2px solid red; */
+    padding: 5px;
+    padding-top: 3%;
+    padding-bottom:1.9%;
+    width: 10px;
+    color: #32195d;
+    font-weight: 600;
+    margin: 3%;
+    line-height: 100%;
+}
+.btn2{
+    /* border: 2px solid red; */
+    padding: 6px;
+    width: 10px;
+    border-radius: 4px;
+    color: #ffffff;
+    font-weight: 600;
+    margin: 3%;
+    box-shadow: 1px 2px 6px 0px #8e8c8c;
+    background-image: linear-gradient(350deg,#a91ff3f1 0%, #8525fbf1 100%);
+    background-color: #6836fc;
+    transition: 100ms;
+    /* box-shadow: 0px 4px 6px 0px #d3d1d1; */
+}
+.btn2:hover{
+    /* border: 2px solid red; */
+    padding: 6px;
+    width: 10px;
+    border-radius: 4px;
+    color: #ffffff;
+    font-weight: 600;
+    margin: 3%;
+    box-shadow: 1px 2px 6px 0px #323232;
+    background-image: linear-gradient(350deg,#a319ee 0%, #7e1af8 100%);
+    background-color: #5821fd;
+}
+input{
+    font-weight: 400;
+    border-radius: 4px;
+    border: 2px solid rgb(233, 233, 233);
+    padding: 7px;
+    color: rgb(67, 54, 113);
+    text-decoration: none;
+    transition: 0.4s;
+    width: 90%;
+}
+input::placeholder{
+    color: rgb(199, 198, 198);
+}
+
+input:focus {
+    /* transition: width 2s; */
+    /* animation-duration: 0.9s; */
+    /* animation-duration: 0.9s; */
+    outline: none;
+    /* outline-color: rgb(85, 226, 182); */
+    box-shadow: 0px 0px 1px 1px rgba(176, 27, 245, 0.7);
+    /* box-shadow: 3px 5px 9px; */
+}
+
+/* this is footer here */
+
+.footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    text-align: center;
+}
+.fcontainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 14px;
+    box-shadow:4px 1px 6px 1px #d3d1d1;
+
+
+    /* border: 2px solid red; */
+}
+.fbtn{
+    display: block;
+    /* text-align: center; */
+    /* padding: 14px 16px; */
+    padding: 13px;
+    text-decoration: none;
+    font-size: 65%;
+    font-weight: 600;
+
+    /* border: 2px solid blue; */
+    /* padding-left: 43%;
+    padding-right: 43%; */
+    
+}
+.f1{
+    flex: 1;
+    /* border: 2px solid red; */
+}
+.f2{
+    flex: 1;
+    /* border: 2px solid red; */
+}
+.f3{
+    flex: 1;
+    /* border: 2px solid red; */
+}
+.f4{
+    flex: 1;
+    /* border: 2px solid red; */
+}
+.f5{
+    flex: 1;
+    /* border: 2px solid red; */
+}
+@media screen and (max-width: 1050px) {
+    .flex-child4 {
+       /* do what you want here */
+       display: none !important;
+    }
+    .input1{
+        width: 100%;
+    }
+}
+@media screen and (max-width: 1050px) {
+    .flex-container {
+        /* border: 2px solid red; */
+        /* do what you want here */
+    }
+    .flex-child1 {
+        /* do what you want here */
+        /* border: 2px solid red; */
+    }
+    .flex-child2 {
+        /* do what you want here */
+        /* border: 2px solid red; */
+    }
+    .logo{
+        /* border: 2px solid blue; */
+        border-radius: 50px;
+        color: white;
+        background-color: #08AEEA;
+        background-image: linear-gradient(320deg, #6c1af8 0%, #e019ee 100%);
+        width: 20px;
+        height: 20px;
+        margin-left: auto;
+    }
+    .lbl{
+        /* font-family: 'Rubik', sans-serif; */
+        /* border: 2px solid blue; */
+        color:rgb(108, 108, 108);
+        /* text-align: center; */
+        line-height: 20px;
+        font-size: 20px;
+        
+    }
+    .flex-child3 {
+        /* do what you want here */
+        /* border: 2px solid red; */
+        display: none !important;
+    }
+}
