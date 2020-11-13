@@ -190,19 +190,16 @@ input:focus {
         width: 100%;
     }
 }
+.footer{
+    /* display: none !important; */
+    visibility: hidden;
+    
+}
 @media screen and (max-width: 1050px) {
-    .flex-container {
-        /* border: 2px solid red; */
-        /* do what you want here */
+    .footer{
+        visibility: visible;
     }
-    .flex-child1 {
-        /* do what you want here */
-        /* border: 2px solid red; */
-    }
-    .flex-child2 {
-        /* do what you want here */
-        /* border: 2px solid red; */
-    }
+
     .logo{
         /* border: 2px solid blue; */
         border-radius: 50px;
