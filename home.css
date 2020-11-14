@@ -186,16 +186,20 @@ input:focus {
     visibility: hidden;
     
 }
+.header2{
+    visibility: hidden;
+}
 @media screen and (max-width: 1050px) {
-    .flex-child4 {
+    .navbar {
        /* do what you want here */
        display: none !important;
     }
-    .input1{
-        width: 100%;
+    .header2{
+        visibility: visible;
     }
 
     .footer{
+        /* display: f; */
         visibility: visible;
     }
 
@@ -214,8 +218,8 @@ input:focus {
         /* border: 2px solid blue; */
         color:rgb(108, 108, 108);
         /* text-align: center; */
-        line-height: 43px;
-        font-size: 20px;
+        line-height: 45px;
+        font-size: 20px;  
         
     }
     .flex-child3 {
