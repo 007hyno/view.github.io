@@ -181,6 +181,20 @@ input:focus {
     flex: 1;
     /* border: 2px solid red; */
 }
+
+#fco{
+    color: rgb(255, 182, 45);
+    transition-duration: 90ms;
+}
+#fco:hover{
+    color: rgb(255, 170, 11);
+    font-size: 39px;
+}
+
+
+
+
+
 .footer{
     /* display: none !important; */
     visibility: hidden;
