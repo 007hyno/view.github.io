@@ -183,11 +183,12 @@ input:focus {
 }
 
 #fco{
-    color: rgb(255, 182, 45);
+    color:#853eff;
     transition-duration: 90ms;
+    font-size:19px;
 }
 #fco:hover{
-    color: rgb(255, 170, 11);
+    color:#7d34fa;
     font-size: 39px;
 }
 
