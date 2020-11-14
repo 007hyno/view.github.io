@@ -155,7 +155,7 @@ input:focus {
     text-decoration: none;
     font-size: 65%;
     font-weight: 600;
-
+    color: #a51eeef3;
     /* border: 2px solid blue; */
     /* padding-left: 43%;
     padding-right: 43%; */
@@ -183,9 +183,12 @@ input:focus {
 }
 
 #fco{
-    color:#7c2fff;
+    /* display: block; */
+    position: absolute;
+    color:#9224f8;
     transition-duration: 90ms;
     font-size:19px;
+    border: 2px solid red;
 }
 
 
