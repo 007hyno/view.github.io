@@ -137,14 +137,20 @@ input:focus {
     color: white;
     text-align: center;
 }
+.headcontainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow:4px 1px 6px 1px #d3d1d1;
+    /* box-shadow: 0 -5px 6px -5px #d3d1d1; */
+    /* border: 2px solid red; */
+}
 .fcontainer{
     display: flex;
     align-items: center;
     justify-content: center;
-    line-height: 14px;
-    box-shadow:4px 1px 6px 1px #d3d1d1;
-
-
+    /* box-shadow:4px 1px 6px 1px #d3d1d1; */
+    box-shadow: 0 -4px 6px -5px #d3d1d1;
     /* border: 2px solid red; */
 }
 .fbtn{
