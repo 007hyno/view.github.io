@@ -62,7 +62,7 @@ ul{
     /* margin-right: 1px; */
 }
 .lbl{
-        /* font-family: 'Rubik', sans-serif; */
+    /* font-family: 'Rubik', sans-serif; */
     /* padding: 7px; */
     /* border: 2px solid blue; */
     color:rgb(108, 108, 108);
@@ -89,6 +89,7 @@ ul{
     font-weight: 600;
     margin: 3%;
     line-height: 100%;
+    transition: 0.154s;
 }
 .btn2{
     /* border: 2px solid red; */
@@ -448,6 +449,9 @@ input:focus {
     .post{
         width: 75%;
     }
+    .post_top{
+        font-size: 15px;
+    }
 }
 @media screen and (max-width: 750px) {
     body{
@@ -456,6 +460,9 @@ input:focus {
     .post{
         width: 85%;
     }
+    .post_top{
+        font-size: 13px;
+    }
 }
 @media screen and (max-width: 600px) {
     body{
@@ -463,5 +470,14 @@ input:focus {
     }
     .post{
         width: 98%;
+    }
+    .post_top{
+        font-size: 11px;
+    }
+    .post_top .name{
+        margin-left: 8px;
+    }
+    .post_top .avatar{
+        width: 38px;
     }
 }
