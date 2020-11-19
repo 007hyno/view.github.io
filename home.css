@@ -79,6 +79,13 @@ ul{
     height: 35px;
     margin-left: auto;
 }
+.logo1{
+    color: white;
+    width: 35px;
+    height: 35px;
+    margin-left: auto;
+    float: right;
+}
 .btn{
     /* border: 2px solid red; */
     padding: 5px;
