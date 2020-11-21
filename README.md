@@ -1,4 +1,3 @@
-## About
 ## WebMini 
 ### Screenshot of Log_in
 ![login](https://user-images.githubusercontent.com/68294675/99871038-826f8900-2bfd-11eb-9655-610bea6e95b5.png)
