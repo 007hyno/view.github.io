@@ -298,6 +298,7 @@ input:focus {
     height:fill;
     /* justify-content: center; */
     /* border: 3px solid rgb(255, 16, 211); */
+    margin-top: 2%;
     padding: 10px;
 }
 
